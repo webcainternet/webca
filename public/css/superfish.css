@@ -3,6 +3,8 @@
 	z-index: 999;
 	float: right;
 	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .menu_block nav {
