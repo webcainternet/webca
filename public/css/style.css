@@ -230,6 +230,32 @@ a.btn:after {
 .nowrap {
     white-space: nowrap;
 }
+
+/* header antiga */
+.head_line {
+border-top: #1B1464 4px solid;
+background: #F5F5F5;
+width: 100%;
+text-align: center;
+height: 40px;
+display: block;
+}
+.headline_content {
+width: 1170px;
+position: relative;
+margin: 0 auto;
+text-align: left;
+}
+.top_slogan {
+position: absolute;
+left: 0;
+top: 0;
+font-size: 11px;
+line-height: 40px;
+color: #7C7C7C;
+}
+
+
 /*header*/
 
 header {
