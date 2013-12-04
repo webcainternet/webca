@@ -235,13 +235,10 @@ a.btn:after {
 .head_line {
 border-top: #1B1464 4px solid;
 background: #F5F5F5;
-width: 100%;
-text-align: center;
 height: 40px;
-display: block;
 }
 .headline_content {
-width: 1170px;
+width: 100%;
 position: relative;
 margin: 0 auto;
 text-align: left;
