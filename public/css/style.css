@@ -243,13 +243,18 @@ position: relative;
 margin: 0 auto;
 text-align: left;
 }
-.top_slogan {
-position: absolute;
-left: 0;
-top: 0;
+.top_slogan_left {
+float: left;
 font-size: 11px;
 line-height: 40px;
 color: #7C7C7C;
+}
+.top_slogan_right {
+float: right;
+font-size: 11px;
+line-height: 40px;
+color: #7C7C7C;
+text-align: right;
 }
 
 
