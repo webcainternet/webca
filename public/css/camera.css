@@ -259,8 +259,8 @@
 	-webkit-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-	top: 50%;
-	margin-top: -48px;
+	bottom: 44%;
+	margin-bottom: -103px;
 	left: 50%;
 	margin-left: -470px;
 	display: block;
