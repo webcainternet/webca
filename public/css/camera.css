@@ -274,6 +274,27 @@
 	font-weight: bold;
 }
 
+.caption2 {
+	text-align: center;
+	font: 300 48px/48px 'Kreon', serif;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	top: 44%;
+	margin-top: -103px;
+	right: 20%;
+	margin-right: -85px;
+	display: block;
+	position: absolute;
+	text-transform: uppercase;
+	color: #fff;
+}
+.caption2 strong {
+	display: block;
+	font-weight: bold;
+}
+
 /**************************
 *
 *	COLORS & SKINS
