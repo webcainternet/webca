@@ -4,7 +4,7 @@
 	var settings = {
 		prependTo: 'nav',				//insert at top of page by default
 		switchWidth: 768,				//width at which to switch to select, and back again
-		topOptionText: 'Selecione o serviço:'	//default "unselected" state
+		topOptionText: 'Selecione a página:'	//default "unselected" state
 	},
 	
 	menuCount = 0,						//used as a unique index for each menu if no ID exists
