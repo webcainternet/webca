@@ -72,13 +72,16 @@
 
     <!-- Ancora animada -->
       <script type="text/javascript">
-      $(document).ready(function(){
-         $('.seletor_das_ancoras').click(function(){
-            var alvo = $(this).attr('href').split('#').pop();
-            $('html, body').animate({scrollTop: $('#'+alvo).offset().top }, 1000);
-            return false;
-         });
-      });
+      $.fn.ancora = function(){
+              $('html,body').animate({scrollTop:$(this).offset().top});
+      }
+      //COLOCANDO EM TODOS LINKS QUE O HREF INICIA COM #
+      $(function(){
+              $('a[href^=#]').click(function(){
+                      $($(this).attr('href')).ancora();
+                      return false;
+              })
+      })
       </script>
     <!-- Ancora animada FIM --> 
      </head>
