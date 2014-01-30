@@ -69,6 +69,19 @@
 
 
     <![endif]-->
+
+    <!-- Ancora animada -->
+      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+         $('.seletor_das_ancoras').click(function(){
+            var alvo = $(this).attr('href').split('#').pop();
+            $('html, body').animate({scrollTop: $('#'+alvo).offset().top }, 1000);
+            return false;
+         });
+      });
+      </script>
+    <!-- Ancora animada FIM --> 
      </head>
 
      <body class="page1" id="top">
