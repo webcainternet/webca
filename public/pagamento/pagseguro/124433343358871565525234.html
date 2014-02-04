@@ -24,32 +24,32 @@ Voc&ecirc; selecionou a forma de pagamento PagSeguro.
 Confira atentamente se os dados abaixo est&atilde;o corretos:
 <br /><br />
 
-Sacado: CARDIOSAVER ENSINO E TREINA. NA AREA DA SAUDE LTDA<br />
-Ref: Desenvolvimento web para o site cardiosaver.com.br<br />
+Sacado: CL&Iacute;NICA CEARENSE DE IMAGENS E CARDIOLOGIA<br />
+Ref: Desenvolvimento web para o site iccardio.com.br<br />
 Data: 04/02/2014<br />
 Valor: R$ 3.405,00 (at&eacute; 12x)<br />
 <br />
 Clique no bot&atilde;o abaixo para pagar:
 <br /><br />
-<!-- Declaração do formulário -->  
+<!-- DeclaraÃ§Ã£o do formulÃ¡rio -->  
 <form target="pagseguro" method="post"   
 action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
       
-    <!-- Campos obrigatórios -->  
+    <!-- Campos obrigatÃ³rios -->  
     <input type="hidden" name="receiverEmail" value="pagseguro@webca.com.br">  
     <input type="hidden" name="currency" value="BRL">  
       
-    <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+    <!-- Itens do pagamento (ao menos um item Ã© obrigatÃ³rio) -->  
     <input type="hidden" name="itemId1" value="0001">  
-    <input type="hidden" name="itemDescription1" value="Desenvolvimento web para o site cardiosaver.com.br">  
+    <input type="hidden" name="itemDescription1" value="Desenvolvimento web para o site iccardio.com.br">  
     <input type="hidden" name="itemAmount1" value="3405.00">  
     <input type="hidden" name="itemQuantity1" value="1">  
     <input type="hidden" name="itemWeight1" value="1000">  
       
-    <!-- Código de referência do pagamento no seu sistema (opcional) -->  
-    <input type="hidden" name="reference" value="024433343358871565525233">  
+    <!-- CÃ³digo de referÃªncia do pagamento no seu sistema (opcional) -->  
+    <input type="hidden" name="reference" value="124433343358871565525234">  
       
-    <!-- Informações de frete (opcionais)  
+    <!-- InformaÃ§Ãµes de frete (opcionais)  
     <input type="hidden" name="shippingType" value="1">  
     <input type="hidden" name="shippingAddressPostalCode" value="01452002">  
     <input type="hidden" name="shippingAddressStreet" value="Av. Brig. Faria Lima">  
@@ -61,12 +61,12 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
     <input type="hidden" name="shippingAddressCountry" value="BRA">   --> 
       
     <!-- Dados do comprador (opcionais) -->  
-    <input type="hidden" name="senderName" value="CARDIOSAVER ENSINO E TREINA. NA AREA DA SAUDE LTDA">  
+    <input type="hidden" name="senderName" value="CLINICA CEARENSE DE IMAGENS E CARDIOLOGIA">  
     <!-- <input type="hidden" name="senderAreaCode" value="19">  
     <input type="hidden" name="senderPhone" value="81549819">  -->
     <!-- <input type="hidden" name="senderEmail" value="brenofmj@yahoo.com.br">  -->
       
-    <!-- submit do form (obrigatório) -->  
+    <!-- submit do form (obrigatÃ³rio) -->  
     <input type="image" name="submit"   
     src="add/botao_pagseguro.gif"   
     alt="Pague com PagSeguro">  
